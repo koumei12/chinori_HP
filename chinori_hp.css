@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/*全体に対しての書き出し*/
+* {
+  box-sizing: border-box;
+}
+/*中身全体に対しての書き出し*/
+body {
+  margin: 0;
+  font-family: "02UtsukushiMincho",serif;
+  background-color:#dbdcd1;
+}
+/*リンク先を持つ要素の書き出し*/
+a {
+  text-decoration: none;
+}
+
+/*コンテナの書き出し*/
+.container {
+  max-width:1024px;
+  width:100%;
+  padding: 0px;
+  margin: 0 auto;
+  background:red;
+}
+
+/*ヘッダーの書き出し*/
+header {
+  padding: 10px 0 10px 0;
+  background-color:#1e3041;
+  height:120px;
+  width:100%;
+  position:relative;
+  position:fixed;
+  top:0;
+  z-index:10;
+  opacity:0.9;
+}
+.header-logo{
+  display:inline-block;
+  max-height:70px;
+  width:auto;
+  position:absolute;
+  top:25px;
+  left:220px;
+}
+.header-icon{
+  display:inline-block;
+  float:right;
+  margin:15px 0px 100px 0px;
+}
+.blog-icon{
+  padding-top:3px;
+  height:17px;
+  width:auto;
+}
+.header-button{
+  padding-right:35px;
+}
+.button{
+  padding-right:30px;
+  padding-left:5px;
+  padding-top:61px;
+  display:inline-block;
+  position:absolute;
+}
+.fa-instagram{
+  color:white;
+}
+.fa-facebook-official{
+  color:white;
+}
+.header-contents{
+  color:#e0dbdc;
+  float:right;
+  position:absolute;
+  top:12px;
+  left:342px;
+}
+.header-contents a{
+  display:inline-block;
+  line-height:120px;
+  padding:0px 80px 0px 40px;
+  margin-top:10px;
+  transition:0.1s;
+}
+.header-contents a:hover{
+  opacity:0.8;
+}
+
+/*見出しの書き出し*/
+.main{
+  margin-top:150px;
+  position:relative;
+}
+.main-contents{
+  width:840px;
+  height:auto;
+  margin:auto;
+  display:block;
+}
+.title{
+  position:absolute;
+  top:245px;
+  left:630px;
+}
+.main-title{
+  font-size:50px;
+  text-align:right;
+  padding:30px 85px 0px 0px;
+  position:relative;
+  z-index:8;
+  text-shadow:1px 0px 7px white;
+  color:#1e3041;
+}
+.main-title-backsquare{
+  height:30px;
+  width:575px;
+  background:#a2716c;
+  opacity:0.5;
+  position:absolute;
+  top:95px;
+  left:-65px;
+}
+.title-eg{
+  position:absolute;
+  top:360px;
+  left:830px;
+}
+.main-title-eg{
+  font-size:24px;
+  text-align:right;
+  padding:10px 90px 0px 0px;
+  z-index:8;
+  position:relative;
+  text-shadow:1px 0px 3px white;
+}
+.main-title-eg-backsquare{
+  height:17px;
+  width:450px;
+  background:#a2716c;
+  opacity:0.2;
+  position:absolute;
+  top:47px;
+  left:-245px;
+}
+.punctuation{
+  margin-top:45px;
+  opacity:0.5;
+  width:1024px;
+}
+
+/*事業内容の書き出し*/
+.service{
+   margin-bottom:100px;
+}
+.service-title{
+  text-align:right;
+  padding:40px 10px 0px 0px;
+  position:relative;
+}
+.service-head{
+position:absolute;
+top:70px;
+left:250px;
+font-size:25px;
+color:#1e3041;
+text-shadow: 0.1px  0px 2px #9e5a5a;
+}
+.service-illust{
+  display:block;
+  margin-top:-100px;
+  width:500px;
+  height:auto;
+}
+.service-netpromotion{
+  display:inline-block;
+  margin-top:-10px;
+  padding-left:60px;
+  width:380px;
+  position:relative;
+}
+.service-list h3{
+  width:400px;
+  font-size:18px;
+  font-weight:bold;
+}
+.service-list p{
+  display:inline-block;
+  width:320px;
+  font-size:12px;
+  padding-top:10px;
+  padding-left:10px;
+  line-height:140%;
+  letter-spacing: 1px;
+}
+.netpromotion-line{
+  height:3px;
+  width:360px;
+  background:#690707;
+  opacity:0.6;
+  position:absolute;
+  top:50px;
+  left:40px;
+}
+.service-netpromotion a{
+  display:inline-block;
+  padding-top:15px;
+  padding-left:50px;
+}
+.promotion-illust{
+  display:none;
+}
+.app-development{
+  display:inline-block;
+  position:absolute;
+  padding-left:200px;
+  margin-top:-10px;
+  margin-left:50px;
+}
+.app-development-line{
+  height:3px;
+  width:360px;
+  background:#690707;
+  opacity:0.6;
+  position:absolute;
+  top:50px;
+  left:140px;
+}
+.app-development h3{
+  padding-left:10px;
+}
+.app-development p{
+  width:240px;
+}
+.app-icon{
+  display:block;
+  padding-top:20px;
+}
+
+/*会社概要の書き出し*/
+.company{
+  margin:auto;
+  background:red;
+}
+.company-title{
+  margin-left:10px;
+  position:relative;
+
+}
+.company-sentences{
+  display:block;
+  position:absolute;
+  font-size:15px;
+  line-height:500%;
+  margin-top:-70px;
+  margin-left:-50px;
+}
+.company-sentences-title{
+  display:inline-block;
+  text-align: right;
+
+}
+.company-mainLine{
+  display:inline-block;
+  height:700px;
+  width:3px;
+  background:#447679;
+}
+.company-subLine{
+  display:inline-block;
+  height:700px;
+  width:2px;
+  background:#452a0e;
+}
+.company-sentences-sub{
+  display:inline-block;
+}
+.google-map {
+    position: relative;
+    width: 100%;    /* 左右に余白が必要なら値を変更してもOK */
+    height: 0;
+    overflow: hidden;
+}
+.googleMap iframe {
+    position: absolute;
+    top: 520px;
+    left: 410px;
+    width: 400px;    /* 必要であれば!importantを付けてください */
+    height: 220px;    /* 必要であれば!importantを付けてください */
+}
+.company-logo{
+  position:absolute;
+  width:120px;
+  height:auto;
+  top:60px;
+  left:730px;
+  opacity:0.4;
+  transform:rotate(15deg);
+}
+
+/*企業理念の書き出し*/
+.vision{
+  text-align:center;
+  position:relative;
+  margin-top:1000px;
+  margin-bottom:100px;
+  background:red;
+}
+.vision_background{
+  display:inline-block;
+  position:absolute;
+  top:100px;
+  left:200px;
+  z-index:1;
+  height:650px;
+  width:auto;
+  opacity:0.5;
+}
+.vision-heading{
+  writing-mode: vertical-rl;
+  font-size:45px;
+  letter-spacing:5px;
+}
+.our_mission{
+  color:#9295b7;
+  opacity:0.5;
+  position:absolute;
+  top:130px;
+  left:30px;
+}
+.our_vision{
+  color:#a2bc97;
+  opacity:0.5;
+  position:absolute;
+  top:350px;
+  left:780px;
+  z-index:5;
+}
+.vision_message{
+  height:55%;
+}
+.mission_sentences{
+  display:inline-block;
+  width:360px;
+  position:absolute;
+  top:210px;
+  left:120px;
+}
+.mission_sentences h3{
+  padding-bottom:5px;
+  text-shadow: 0.1px  0px 1px #5f69cb;
+  font-size:150%;
+}
+.mission_sentences p{
+  text-align:left;
+  font-size:11px;
+  letter-spacing:1px;
+  line-height:140%;
+}
+.vision_sentences{
+  display:inline-block;
+  position:absolute;
+  top:480px;
+  left:520px;
+  z-index:7;
+}
+.vision_sentences h3{
+  padding-bottom:5px;
+  text-shadow: 0.1px  0px 1px #538647;
+  font-size:150%;
+  text-align:center;
+}
+.vision_sentences p{
+  text-align:left;
+  font-size:11px;
+  letter-spacing:1px;
+  line-height:140%;
+  width:360px;
+}
+.punctuation-second{
+  margin-top:70px;
+  opacity:0.5;
+}
+/*お知らせの書き出し*/
+.news{
+  text-align:center;
+  margin-bottom:100px;
+}
+.news-contents a{
+  display:inline-block;
+  padding-top:225px;
+}
+
+/*お問い合わせの書き出し*/
+.contact{
+  text-align:center;
+  margin-bottom:100px;
+}
+.contact-title{
+  padding-bottom:30px;
+}
+form{
+  background-color:white;
+  box-shadow:0px 0px 4px gray;
+  height:370px;
+  width:570px;
+  margin:auto;
+  padding-top:3px;
+}
+form p{
+  padding-top:12px;
+}
+.contact_information{
+    padding:1px 155px;
+}
+form textarea{
+  display:block;
+  margin:auto;
+  border-color:#dfdfdf;
+  margin-bottom:25px;
+}
+.submit-button{
+  height:30px;
+  width:150px;
+  color:white;
+  background-color:#80a2a4;
+  font-family: "02UtsukushiMincho",serif;
+}
+
+
+/*フッダーの書き出し*/
+footer {
+  padding: 10px 0 10px 0;
+  background-image:url(".img/footer.png");
+  height:200px;
+  width:100%;
+  position:relative;
+}
+.footer-logo{
+  max-height:100px;
+  width:auto;
+  margin-left:75px;
+  margin-top:33px;
+}
+.copyright{
+  font-family:'Gulim',serif;
+  color:white;
+  font-size:13px;
+  padding-top:5px;
+  padding-left:60px;
+}
+.footer-contents{
+  position:absolute;
+  top:65px;
+  left:500px;
+}
+.footer-contents p{
+  display:inline-block;
+  padding-right:65px;
+  color:white;
+}
+.footer-icon{
+  display:inline-block;
+  position:absolute;
+  top:140px;
+  left:1020px;
+}
+.footer-blog-icon{
+  padding-top:3px;
+  height:17px;
+  width:auto;
+}
+.footer-sns{
+  padding-right:5px;
+  padding-left:15px;
+}
