@@ -4,61 +4,65 @@
     <meta charset="utf-8">
     <title>chonori_hp</title>
     <link rel="stylesheet" href="chinori_hp.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="script" type="text/javascript" src="script.js">
    </head>
   <body>
     <header>
 <div class="container">
-  <div class="header-left">
     <img class="header-logo" src=".img/logo.png" alt="chinori_logo">
-  </div>
   <div class="header-right">
     <div class="header-icon">
-    <img  src=".img/blog-icon.png" alt="blog-icon">
-    <span class="fa fa-instagram" ></span>
+    <img class="header-button blog-icon"  src=".img/blog-icon.png" alt="blog-icon">
+    <span class="fa fa-instagram header-button" ></span>
     <span <i class="fa fa-facebook-official" aria-hidden="true"></i></span>
     </div>
     <div class="header-contents">
-    <p>事業内容</p>
-    <p>会社概要</p>
-    <p>企業理念</p>
-    <p>お知らせ</p>
-    <p>お問い合わせ</p>
+    <span class="button"><img src=".img/button.png" alt"ichimatsu-icon"></span><a>事業内容</a>
+    <span class="button"><img src=".img/button.png" alt"ichimatsu-icon"></span><a>会社概要</a>
+    <span class="button"><img src=".img/button.png" alt"ichimatsu-icon"></span><a>企業理念</a>
+    <span class="button"><img src=".img/button.png" alt"ichimatsu-icon"></span><a>お知らせ</a>
+    <span class="button"><img src=".img/button.png" alt"ichimatsu-icon"></span><a>お問い合わせ</a>
+    </div>
   </div>
-
-  </div>
-
 </div>
     </header>
     <body>
       <div class="main">
         <div class="container">
-          <h1 class="main-title">価値を再定義する会社</h1>
-          <img class="main-contents" src=".img/sia.png" alt="main-photo">
-          <div class="main-contents-cover"></div>
-          <img class="punctuation" src=".img/punctuation.png" alt="ichimatsumoyou_illust">
+          <img class="main-contents" src=".img/main_illust.png" alt="main-photo">
+          <div class="title">
+            <h1 class="main-title">価値を再定義する会社</h1>
+            <div class="main-title-backsquare"></div>
+          </div>
+          <div class="title-eg">
+            <p class="main-title-eg">Redefining Value Company</p>
+            <div class="main-title-eg-backsquare"></div>
+          </div>
+          <img class="punctuation" src=".img/punctuation_true.png" alt="ichimatsumoyou_illust">
         </div>
       </div>
       <div class="service">
         <div class="container">
           <div class="service-title">
-            <img src=".img/service-title.png" alt="service-title=事業内容">
+            <img class="service-title" src=".img/service-title.png" alt="service-title=事業内容">
+            <div class="service-head">
+              <h2>生活の問題点をITの力で解決する</h2>
+            </div>
           </div>
-          <div class="service-head">
-            <h2>生活の問題点をITの力で解決する</h2>
-          </div>
-          <div class="service-illust">
-            <img src=".img/service-illust.png">
-          </div>
+            <img class="service-illust" src=".img/service-illust.png">
           <div class="service-list">
             <div class="service-netpromotion">
               <h3>ネットプロモーションコンサル・制作</h3>
+              <div class="netpromotion-line"></div>
               <p>HP制作・ECサイト構築・チラシ制作からプロモーションの運用まで一本化したマーケティング制作コンサルを行なっています。IT化をする上で挙げられる課題である「運用」まで丁寧にコンサルしていきます。</p>
               <a href="#">プロモーションご依頼はこちら</a>
               <img class="promotion-illust" src="" alt="performance">
             </div>
             <div class="app-development">
               <h3>webアプリケーション開発</h3>
+              <div class="app-development-line"></div>
               <p>現在、フレッシュな農産物を需要者に届けるようなサービスを開発中です。</p>
               <img class="app-icon" src=".img/app-development.png" alt="developping-icon">
             </div>
@@ -70,8 +74,16 @@
           <div class="company-title">
             <img src=".img/company-title.png" alt="company-title=会社概要">
           </div>
-          <img class="company-sentences"  src=".img/company-sentences.png" alt="company-sentences">
-          <img class="company-logo"  src=".img/logo.png">
+          <div class="company-sentences">
+            <p class="company-sentences-title">商号<br>所在地<br>設立年月日<br>設立者<br>事業内容<br>電話<br><br>地図</p>
+            <div class="company-mainLine"></div>
+            <div class="company-subLine"></div>
+            <p class="company-sentences-sub">chinori合同会社<br>福岡市中央区天神1丁目1-1<br>2017年12月１日<br>中村孔亮, 田島翔也, 川下洋和<br>webアプリケーション開発,ネットプロモーションコンサル・制作<br>000-0000-0000</p>
+            <div class="googleMap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13297.676001654934!2d130.25778845!3d33.568468749999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1511717868214" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <img class="company-logo"  src=".img/logo.png" alt="company-logo">
         </div>
       </div>
       <div class="vision">
@@ -102,7 +114,8 @@
 値を必要としている人たちに提供していきます。</p>
             </div>
           </div>
-          <img src=".img/punctuation.png" alt="ichimatsumoyou_illust">
+          <img class="vision_background" src=".img/vision_background.png" alt="vision_background">
+          <img class="punctuation-second" src=".img/punctuation_true.png" alt="ichimatsumoyou_illust">
         </div>
 
       </div>
@@ -111,7 +124,10 @@
           <div class="news-title">
             <img src=".img/news-title.png" alt="news-title=お知らせ">
           </div>
-          <a href="#">バックナンバーはこちら</a>
+          <div class="news-contents">
+
+            <a href="#">バックナンバーはこちら</a>
+          </div>
       </div>
       </div>
       <div class="contact">
@@ -119,12 +135,12 @@
           <div class="contact-title">
             <img src=".img/contact-title.png" alt="contact-title=お問い合わせ">
           </div>
-          <form>
-          <p>連絡先を記入してください</p>
-          <input type="text" name="" value="">
-          <p>内容を記入してください</p>
-          <textarea name="name" rows="8" cols="80"></textarea>
-          <input type="submit" name="" value="送信">
+          <form action="url" method="post">
+          <p>連絡先を記入してください。</p>
+          <input class="contact_information" type="text" name="eMail" value="">
+          <p>内容を記入してください。</p>
+          <textarea name="body" rows="10" cols="70"></textarea>
+          <input class="submit-button" type="submit" value="送信">
         </div>
       </form>
 
@@ -135,7 +151,7 @@
       <div class="container">
         <div class="footer-left">
           <img class="footer-logo" src=".img/logo.png" alt="chinori_logo">
-          <p class="copyright">©️ 2017 chinori LLC.</p>
+          <p class="copyright">©︎ 2017 chinori LLC.</p>
         </div>
         <div class="footer-right">
           <div class="footer-contents">
@@ -146,9 +162,9 @@
           <p>お問い合わせ</p>
         </div>
         <div class="footer-icon">
-        <img src=".img/blog-icon.png" alt="blog-icon">
-        <span class="fa fa-instagram" ></span>
-        <span <i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+        <img class="footer-blog-icon" src=".img/blog-icon.png" alt="blog-icon">
+        <span class="fa fa-instagram footer-sns" ></span>
+        <span <i class="fa fa-facebook-official footer-sns" aria-hidden="true"></i></span>
         </div>
         </div>
       </div>
